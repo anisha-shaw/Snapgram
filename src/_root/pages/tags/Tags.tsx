@@ -11,7 +11,7 @@ const Tags = () => {
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat'
                     }}>
-                    <img src="https://source.unsplash.com/random/?nature" alt="" />
+                    <img src="https://picsum.photos/400/300/?blur&category=animals,wildlife" alt="" />
                 </Link>
                 <Link to='/tagged-posts' className="lg:w-[33%] md:w-[33%] sm:w-[32.5%]"
                     style={{
@@ -20,7 +20,7 @@ const Tags = () => {
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat'
                     }}>
-                    <img src="https://source.unsplash.com/random/?food" alt="" />
+                    <img src="https://loremflickr.com/400/300" alt="" />
                 </Link>
                 <Link to='/tagged-posts' className="lg:w-[33%] md:w-[33%] sm:w-[32.5%]"
                     style={{
@@ -29,7 +29,7 @@ const Tags = () => {
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat'
                     }}>
-                    <img src="https://source.unsplash.com/random/?adventure" alt="" />
+                    <img src="https://picsum.photos/400/300" alt="" />
                 </Link>
                 <Link to='/tagged-posts' className="lg:w-[33%] md:w-[33%] sm:w-[32.5%]"
                     style={{
@@ -38,7 +38,7 @@ const Tags = () => {
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat'
                     }}>
-                    <img src="https://source.unsplash.com/random/?study" alt="" />
+                    <img src="https://picsum.photos/seed/random-image/400/300" alt="" />
                 </Link>
 
 

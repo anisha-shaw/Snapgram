@@ -17,7 +17,7 @@ const Stories = () => {
           <div className="w-16 h-16 rounded-full object-cover bg-purple-500 p-[2px]">
             <img
               className="rounded-full w-full h-full object-cover p-[2.5px] bg-black"
-              src="https://source.unsplash.com/random/?temple"
+              src="https://loremflickr.com/800/800"
               alt="story image" />
           </div>
           <TextEllipse username='stories' maxLength={8} />

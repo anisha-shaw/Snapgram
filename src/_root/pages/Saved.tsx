@@ -28,7 +28,7 @@ const Saved = () => {
 
         <div className="flex flex-wrap gap-9 w-full max-w-5xl" >
           {PostFeedData.map((data) => (
-            <div className="  flex flex-wrap gap-2 w-full max-w-5xl">
+            <div className="   gap-2 w-full max-w-5xl">
               <Link to='/' className="lg:w-[33%] md:w-[33%] sm:w-[32.5%] to-transparent rounded-b-[24px] gap-2"
                 style={{
 

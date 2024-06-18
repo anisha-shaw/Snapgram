@@ -5,7 +5,7 @@ const ProfileNav = () => {
         <div className="w-full h-auto flex items-center justify-between">
             <Link to='/' className="w-full h-auto flex items-center gap-x-2">
                 <img
-                    src="https://source.unsplash.com/random/?music" alt=""
+                    src="https://picsum.photos/seed/800/200" alt=""
                     className="w-12 h-12 rounded-full"
                 />
 

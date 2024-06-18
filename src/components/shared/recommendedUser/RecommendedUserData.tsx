@@ -2,31 +2,31 @@ const RecommendUserData = [
     {
       id: 1,
       username: "mountains.men",
-      profileImg: "https://source.unsplash.com/random/?mountain,climber",
+      profileImg: "https://loremflickr.com/200/300",
       follow: "Follow",
     },
     {
       id: 2,
       username: "motivation_quotes",
-      profileImg: "https://source.unsplash.com/random/?quotes",
+      profileImg: "https://picsum.photos/seed/600/200",
       follow: "Follow",
     },
     {
       id: 3,
       username: "photographer",
-      profileImg: "https://source.unsplash.com/random/?photographer",
+      profileImg: "https://loremflickr.com/700/300",
       follow: "Follow",
     },
     {
       id: 4,
       username: "vlogger_around",
-      profileImg: "https://source.unsplash.com/random/?vlogger",
+      profileImg: "https://loremflickr.com/400/300",
       follow: "Follow",
     },
     {
       id: 5,
       username: "peace_of_mind",
-      profileImg: "https://source.unsplash.com/random/?road,travel",
+      profileImg: "https://loremflickr.com/900/300",
       follow: "Follow",
     },
   ];

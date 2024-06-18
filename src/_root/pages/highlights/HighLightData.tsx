@@ -1,42 +1,42 @@
 const highlightData = [
     {
       id: 1,
-      img: "https://source.unsplash.com/random/?flower",
+      img: "https://picsum.photos/seed/400/200",
       name: "Flowers",
     },
     {
       id: 2,
-      img: "https://source.unsplash.com/random/?adventure",
+      img: "https://picsum.photos/seed/300/200",
       name: "Adventures",
     },
     {
       id: 3,
-      img: "https://source.unsplash.com/random/?mountians",
+      img: "https://picsum.photos/seed/puppy/300/800",
       name: "Mountians",
     },
     {
       id: 4,
-      img: "https://source.unsplash.com/random/?lakes",
+      img: "https://picsum.photos/seed/random-image/200/900",
       name: "Lakes",
     },
     {
       id: 5,
-      img: "https://source.unsplash.com/random/?nature",
+      img: "https://picsum.photos/seed/puppy/800/800",
       name: "Nature",
     },
     {
       id: 6,
-      img: "https://source.unsplash.com/random/?animals",
+      img: "https://loremflickr.com/100/300",
       name: "Animals",
     },
     {
       id: 7,
-      img: "https://source.unsplash.com/random/?photography",
+      img: "https://picsum.photos/seed/400/800",
       name: "Photography",
     },
     {
       id: 8,
-      img: "https://source.unsplash.com/random/?wildlife",
+      img: "https://picsum.photos/800/300/?blur&category=animals,wildlife",
       name: "Wildlife",
     },
   ];
