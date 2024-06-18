@@ -171,10 +171,6 @@ const Profile = () => {
       <Outlet />
 
       <Routes>
-        <Route
-          index
-          element={<GridPostList posts={currentUser.posts} showUser={false} />}
-        />
         {currentUser.$id === user.id && (
           <Route path="/tagged-posts" element={< Tags />} />
 

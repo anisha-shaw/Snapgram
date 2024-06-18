@@ -43,12 +43,6 @@ const Stories = () => {
       </div>
 
 
-      {/* <div className="w-[25%] h-auto lg:block md:hidden sm:hidden hidden pl-5">
-          <RecommendedUser />
-        </div> */}
-
-
-
 
 
     </>
@@ -62,4 +56,3 @@ export default Stories
 
 
 
-// lg:max-w-[41vw] md:mx-w-[70vw] sm:max-w-full max-w-full w-full h-auto flex items-center gap-x-3.5

@@ -3,8 +3,7 @@ import { ID, Query } from "appwrite";
 
 import { appwriteConfig, account, databases, storage, avatars } from "./config";
 import { IUpdatePost, INewPost, INewUser, IUpdateUser } from "@/types";
-import { QUERY_KEYS } from "../react-query/queryKeys";
-import { useQuery } from "@tanstack/react-query";
+
 
 // ============================================================
 // AUTH
@@ -116,9 +115,6 @@ export async function signOutAccount() {
   }
 }
 
-// ============================================================
-// POSTS
-// ============================================================
 
 // ============================== CREATE POST
 export async function createPost(post: INewPost) {
@@ -367,7 +363,7 @@ export async function likePost(postId: string, likesArray: string[]) {
       {
         likes: likesArray,
       },
-      permissions // Pass permissions here
+      permissions 
     );
 
     if (!updatedPost) throw Error;
@@ -375,7 +371,7 @@ export async function likePost(postId: string, likesArray: string[]) {
     return updatedPost;
   } catch (error) {
     console.error(error);
-    throw error; // Rethrow the error to propagate it
+    throw error; 
   }
 }
 

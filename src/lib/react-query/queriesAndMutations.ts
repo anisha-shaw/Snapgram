@@ -21,6 +21,7 @@ export const useSigninAccount = () => {
 }
 
 
+
 export const useSignOutAccount = () => {
     return useMutation({
         mutationFn: signOutAccount
@@ -198,13 +199,6 @@ export const useUpdateUser = () => {
     });
 };
 
-
-export const useSignInAccount = () => {
-    return useMutation({
-        mutationFn: (user: { email: string; password: string }) =>
-            signInAccount(user),
-    });
-};
 
 
 export const useGetUserPosts = (userId?: string) => {

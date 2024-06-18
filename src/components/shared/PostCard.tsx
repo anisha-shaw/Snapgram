@@ -3,7 +3,7 @@ import { Models } from "appwrite"
 import { Link } from "react-router-dom"
 import PostStats from "./PostStats"
 import { multiFormatDateString } from "@/lib/utils"
-import RecommendedUser from "./recommendedUser/RecommendedUser"
+
 
 type PostCardProps = {
     post: Models.Document
